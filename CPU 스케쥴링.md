@@ -20,7 +20,7 @@
 
 스케쥴링 큐는 반드시 선입선출일 필요는 없다.
 
-![alt text](image-9.png)
+![alt text](./images/image-9.png)
 
 스케쥴링 큐의 대표적인 예시가 `준비큐`와 `대기큐` 이다.
 
@@ -30,9 +30,9 @@
 입출력장치 사용이 끝난 후 인터럽트 발생 시 해당 프로세스는 대기큐에서 준비큐로 이동하게 된다.
 
 
-![alt text](image-10.png)
+![alt text](./images/image-10.png)
 
-![alt text](image-11.png)
+![alt text](./images/image-11.png)
 
 ### 기아현상
 
@@ -44,7 +44,7 @@
 
 - 선점형 스케쥴링: 현재 CPU를 사용 중인 프로세스로 부터 CPU 자원을 `빼앗아` 다른 프로세스에 할당
 
-    - ![alt text](image-12.png)
+    - ![alt text](./images/image-12.png)
 
     - 프로세스 상태 전이에서, 타이머 인터럽트가 발생한 경우 다른 프로세스가 CPU를 선점하는것이 선점형 스케쥴링의 예시이다.
 
@@ -75,7 +75,7 @@
 
 - 비선점형 스케쥴링: 현재 CPU를 사용 중인 프로세스의 작업이 끝날 때 까지 프로세스 `기다리기`
 
-    - ![alt text](image-13.png)
+    - ![alt text](./images/image-13.png)
 
         - 장점: 컨텍스트 스위칭의 오버헤드가 적다.
         - 단점: 모든 프로세스가 골고루 자원을 이용하기 어렵다.
